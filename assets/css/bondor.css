@@ -23,7 +23,8 @@
   --bondor-gray-rgb: 118, 118, 118;
   --bondor-white: #ffffff;
   --bondor-white-rgb: 255, 255, 255;
-  --bondor-base: #ca1f26;
+  /* --bondor-base: #ca1f26; */
+  --bondor-base: #ff8d20;
   --bondor-base-rgb: 202, 31, 38;
   --bondor-black: #1d1d1d;
   --bondor-black-rgb: 29, 29, 29;
