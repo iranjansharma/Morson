@@ -305,29 +305,25 @@
                 Your email address will not be published. Required fields are
                 marked *
               </p>
-              <form
-                action="assets/inc/sendemail.php"
-                class="contact-page__form contact-form-validated"
-                novalidate="novalidate"
-              >
+              <!-- <form method="post" action="" name="contacts-form">
                 <div class="row">
                   <div class="col-xl-6 col-lg-6">
                     <div class="contact-page__input-box">
-                      <input type="text" placeholder="Your Name*" name="name" />
+                      <input type="text" placeholder="Your Name" name="name" />
                     </div>
                   </div>
                   <div class="col-xl-6 col-lg-6">
                     <div class="contact-page__input-box">
                       <input
                         type="email"
-                        placeholder="Your Email*"
+                        placeholder="Your Email"
                         name="email"
                       />
                     </div>
                   </div>
                   <div class="col-xl-12 col-lg-12">
                     <div class="contact-page__input-box">
-                      <input type="text" placeholder="Website*" name="email" />
+                      <input type="text" placeholder="Subject" name="subject" />
                     </div>
                   </div>
                 </div>
@@ -336,17 +332,37 @@
                     <div class="contact-page__input-box text-message-box">
                       <textarea
                         name="message"
-                        placeholder="Write Message*"
+                        placeholder="Write Message"
                       ></textarea>
                     </div>
                     <div class="contact-page__btn-box">
-                      <button type="submit" class="thm-btn contact-page__btn">
-                        Send Meassage
+                      <input type="submit" value="Submit" id="submit" class="thm-btn contact-page__btn">
                       </button>
                     </div>
                   </div>
                 </div>
-              </form>
+              </form> -->
+                <form class="contact-one__form" method="post" action="" name="contact-form">
+                  <div class="contact-one__content-box">
+                    <div class="contact-page__input-box">
+                      <input type="text" placeholder="Your Name" name="name" />
+                    </div>
+                    <div class="contact-page__input-box">
+                      <input type="email" placeholder="Email Address" name="email" />
+                    </div>
+                    <div class="contact-page__input-box">
+                      <input type="text" placeholder="Phone Number" name="number" />
+                    </div>
+                    <div class="contact-page__input-box ">
+                      <input type="text" placeholder="Message" name="message" />
+                    </div>
+                  </div>
+                  <div class="contact-one__content-bottom">
+                    <input type="submit" class="thm-btn contact-page__btn" value="Submit" id="submit">
+                  </input>
+                    </div>
+                  </div>
+                </form>
               <div class="result"></div>
             </div>
           </div>
@@ -554,7 +570,7 @@
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"
       ><i class="fas fa-arrow-up"></i
     ></a>
-
+    <script src="assets/js/script.js"></script>
     <script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
     <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendors/jarallax/jarallax.min.js"></script>

@@ -975,7 +975,7 @@
               <div class="contact-one__content">
                 <p class="contact-one__tagline">GET FREE QUOTE</p>
                 <h2 class="contact-one__title">Request a Quote</h2>
-                <form class="contact-one__form">
+                <form class="contact-one__form" method="post" action="" name="contact-form">
                   <div class="contact-one__content-box">
                     <div class="contact-one__input-box">
                       <input type="text" placeholder="Your Name" name="name" />
@@ -984,45 +984,15 @@
                       <input type="email" placeholder="Email Address" name="email" />
                     </div>
                     <div class="contact-one__input-box">
-                      <input type="email" placeholder="Phone Number" name="email" />
+                      <input type="text" placeholder="Phone Number" name="number" />
                     </div>
                     <div class="contact-one__input-box">
-                      <input type="email" placeholder="Property Types" name="email" />
-                    </div>
-                  </div>
-                  <div class="contact-one__progress">
-                    <div class="contact-one__progress-single">
-                      <h4 class="contact-one__progress-title">
-                        DIST (Miles):
-                      </h4>
-                      <div class="bar">
-                        <div class="bar-inner count-bar" data-percent="70%">
-                          <div class="count-text"></div>
-                        </div>
-                      </div>
+                      <input type="text" placeholder="Message" name="message" />
                     </div>
                   </div>
                   <div class="contact-one__content-bottom">
-                    <button type="submit" class="thm-btn contact-one__btn">
-                      GET YOUR QUOTE
-                    </button>
-                    <div class="contact-one__content-bottom-text-box">
-                      <div class="contact-one__count-box">
-                        <div class="contact-one__count count-box">
-                          <h3 class="count-text" data-stop="212" data-speed="1500">
-                            00
-                          </h3>
-                          <span>+</span>
-                        </div>
-                        <p>Reviews</p>
-                      </div>
-                      <div class="contact-one__ratting">
-                        <span class="fas fa-star"></span>
-                        <span class="fas fa-star"></span>
-                        <span class="fas fa-star"></span>
-                        <span class="fas fa-star"></span>
-                        <span class="fas fa-star"></span>
-                      </div>
+                    <input type="submit" class="thm-btn contact-one__btn" value="Submit" id="submit">
+                  </input>
                     </div>
                   </div>
                 </form>
@@ -1423,7 +1393,7 @@
   <!-- /.search-popup -->
 
   <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fas fa-arrow-up"></i></a>
-
+  <script src="assets/js/script.js"></script>
   <script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
   <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendors/jarallax/jarallax.min.js"></script>
